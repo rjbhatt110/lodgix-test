@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: regular;
+  font-weight: 400;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: bolder;
+  font-weight: 900;
+  font-display: swap;
+  src: url('~assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+
+.button {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  padding: 10px 30px;
+  background-color: #f56700;
+  border: 0;
+  width: 20%;
+  transition: all 0.8s linear;
+}
+
+.icon {
+  background: url(/right-arrow.png);
+  background-size: cover;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  vertical-align: bottom;
+  margin-left: 10px;
+}
+
+.btn-secondary:hover {
+  transition: all 0.8s linear;
+  padding: 10px 30px;
+  background-color: #083273;
+  width: 21%;
+}
+
+.btn-secondary i {
+  transform: translateX(0);
+  transition: all 0.8s linear;
+}
+
+.btn-secondary:hover i {
+  transform: translateX(5px);
+  transition: all 0.8s linear;
+}
+
+.carousel-indicators li {
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background: #c4c4c4;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.carousel-indicators .active {
+  background-color: #0d47a1;
+}
+
+.carousel-control-prev {
+  opacity: 1;
+}
+
+.carousel-control-prev-icon {
+  background-color: #0d47a1;
+  background-image: url('/left.png');
+  border-radius: 100%;
+  padding: 25px;
+}
+
+.carousel-control-prev-icon:hover {
+  background-color: #f56700;
+  background-image: url('/left.png');
+  border-radius: 100%;
+  padding: 25px;
+}
+
+.carousel-control-next {
+  opacity: 1;
+}
+
+.carousel-control-next-icon {
+  background-color: #0d47a1;
+  background-image: url('/right.png');
+  border-radius: 100%;
+  padding: 25px;
+}
+
+.carousel-control-next-icon:hover {
+  background-color: #f56700;
+  background-image: url('/right.png');
+  border-radius: 100%;
+  padding: 25px;
+}
